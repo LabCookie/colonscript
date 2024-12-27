@@ -12,7 +12,9 @@ BLACKLISTED TOPICS:
   
 UPCOMING FOR Colon1.0
 - Functions to log anything to javascript console (console:log(Hello, World!) or console:log($greeting))
-- Variable capabilities (variable:set(greeting,Hello\, World!))
+- Variable capabilities (variable:set(greeting,Hello World!))
+- Very simplistic math functions (like +, -, /, or *)
+- Comments (- this is a comment)
 UPCOMING FOR Colon2.0
 - Dynamic code (instead of hard-coded keywords)
 - Importing capabilities (module:require(./Modules/module.colon2))
