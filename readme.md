@@ -28,3 +28,5 @@ UPCOMING FOR Colon3.0
 - Revamped keywords
 - Far more appealing editor
 - New math functions (like sin and cos)
+
+For updates, check my bluesky: @okguy-dev.bsky.social
