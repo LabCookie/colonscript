@@ -15,12 +15,14 @@ UPCOMING FOR Colon1.0
 - Variable capabilities (variable:set(greeting,Hello World!))
 - Very simplistic math functions (like +, -, /, or *)
 - Comments (- this is a comment)
+  
 UPCOMING FOR Colon2.0
 - Dynamic code (instead of hard-coded keywords)
 - Importing capabilities (module:require(./Modules/module.colon2))
 - Simple font change for the editor (default to arial)
 - New functions
 - Error Handling
+  
 UPCOMING FOR Colon3.0
 - HTML manipulation (document:element(id))
 - Revamped keywords
