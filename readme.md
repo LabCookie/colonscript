@@ -18,6 +18,7 @@ UPCOMING FOR Colon2.0
 - Importing capabilities (module:require(./Modules/module.colon2))
 - Simple font change for the editor (default to arial)
 - New functions
+- Error Handling
 UPCOMING FOR Colon3.0
 - HTML manipulation (document:element(id))
 - Revamped keywords
