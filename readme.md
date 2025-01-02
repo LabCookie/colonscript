@@ -10,23 +10,11 @@ BLACKLISTED TOPICS:
 - Javascript keyword (javascript:perform()). ITS NOT HAPPENING.
 - Any complaints about this readme that isn't constructive
   
-UPCOMING FOR Colon1.0
-- Functions to log anything to javascript console (console:log(Hello, World!) or console:log($greeting))
-- Variable capabilities (variable:set(greeting,Hello World!))
-- Very simplistic math functions (like +, -, /, or *)
-- Comments (- this is a comment)
-  
-UPCOMING FOR Colon2.0
-- Dynamic code (instead of hard-coded keywords)
-- Importing capabilities (module:require(./Modules/module.colon2))
-- Simple font change for the editor (default to arial)
-- New functions
-- Loops
-  
-UPCOMING FOR Colon3.0
+1.0 ✅
+7 ✅
+UPCOMING FOR Colon8
 - HTML manipulation (document:element(id))
 - Revamped keywords
-- Far more appealing editor
 - New math functions (like sin and cos)
 
 For updates, check my bluesky: @okguy-dev.bsky.social
