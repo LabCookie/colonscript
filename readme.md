@@ -17,4 +17,4 @@ UPCOMING FOR Colon8
 - Revamped keywords
 - New math functions (like sin and cos)
 
-For updates, check my bluesky: @okguy-dev.bsky.social
+For updates, check my bluesky: @labcookie.bsky.social
