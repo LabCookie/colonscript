@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColonScript7</title>
+    
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main_icon {
+            width: 64px;
+            height: auto;
+            padding-right: 25px;
+            padding-left: 5px;
+            padding-top: 5px;
+        }
+        .horizontal_menu {
+            width: device-width;
+            background-color: gray;
+            display: flex;
+            align-items: center;
+        }
+        .hm_txt {
+            color: white;
+            text-align: center;
+            font-size: 2em;
+            padding-right: 16px;
+        }
+        .hm_btn {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 50px;
+            width: 150px;
+            border-radius: 12px;
+            border: none;
+            background-color: gainsboro;
+            color: rgb(70, 70, 70)
+        }
+        .seperator {
+            padding-right: 8px;
+        }
+        textarea {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            height: 320px;
+            border-radius: 12px;
+            border-color:gray;
+            resize: horizontal;
+            padding-left: 5px;
+        }
+        .textareaNbuttons {
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="horizontal_menu">
+        <img src="./icon.png" class="main_icon"/>
+        <span class="hm_txt">ColonScript7 Official Editor</span>
+        <button class="hm_btn" onclick="alert('Hello! I am a 15 year old programmer, music producer and artist! I wanted to create my own language because I was bored and wanted to excercise my javascript experience. Happy coding everyone! - LabCookie <3')">ABOUT</button>
+        <div class="seperator"></div>
+        <button class="hm_btn" onclick="interpret(document.getElementById('code').value,document.getElementById('modules').value)">RUN</button>
+    </div>
+    <div class="textareaNbuttons">
+        <textarea placeholder="variable:set(name,Baudelaire)
+variable:set(greeting,Hello )
+variable:concat(greeting, $name)
+
+console:log(greeting)" id="code"></textarea>
+        <textarea placeholder="function register() {
+    colon2.example = {
+        hello_world: function () {
+            console.log('Hello, World!')
+        },
+                greet_name: function (str) {
+                    console.log(`Hello, ${str}!`)
+                }
+            };
+        }" id="modules"></textarea>
+    </div>
+
+    <script src="./editorscript.js"></script>
+    <script src="../colon7.js"></script>
+</body>
+</html>
